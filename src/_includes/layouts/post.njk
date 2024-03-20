@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ constants.title }} - {{ title }}</title>
+</head>
+<body>
+    <p>I'm a layout</p>
+
+    <h1>Post contents</h1>
+    {{ content | safe }}
+    {{ constants.author.name }}
+    <h1>Post contents</h1>
+
+    <p>I'm a layout</p>
+
+</body>
+</html>

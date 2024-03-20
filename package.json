@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio to publish notes, CV, demos, etc...",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --input=src --serve --port=3000"
+  },
+  "keywords": [],
+  "author": "Víctor <vsantiago.public@protonmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
