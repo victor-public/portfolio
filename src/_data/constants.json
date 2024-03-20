@@ -1,0 +1,20 @@
+{
+    "headline": "Hi I'm Victor. I do Math, Software and Data Science from Dublin",
+
+    "author": {
+        "name": "Víctor",
+        "full_name": "Víctor Santiago",
+        "email": "vsantiago.public@protonmail.com"
+    },
+
+    "contact": {
+        "linkedin": "www.linkedin.com/in/victorsantiagogonzalez",
+        "telegram": "https://t.me/victordublin",
+        "email": "vsantiago.public@protonmail.com"
+    },
+
+    "resume": {
+        "doc": "doc",
+        "pdf": "pdf"
+    }
+}
