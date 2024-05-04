@@ -2,9 +2,9 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "A personal portfolio to publish notes, CV, demos, etc...",
-  "main": "index.js",
+  "main": "index.md",
   "scripts": {
-    "start": "eleventy --input=src --serve --port=3000"
+    "start": "rm -rf _dist && eleventy --serve --port=3000"
   },
   "keywords": [],
   "author": "Víctor <vsantiago.public@protonmail.com",

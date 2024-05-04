@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A title</title>
+    <title>{{ title }}</title>
 </head>
 <body>
-    <p>I'm a layout</p>
-
-    <h1>Hello World!</h1>
-<p>And something else</p>
-
-
-    <p>I'm a layout</p>
-
+    {% include "partials/nav.njk" %}
+    <main>{{ content | safe }}</main>
 </body>
 </html>
