@@ -1,0 +1,23 @@
+{%- for item in pagination.items -%}
+    <div>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        {{ item.date | formatDate }}
+        {{ item.data.description }}
+        <hr />
+    </div>
+{%- endfor -%}
+
+
+{% if pagination.href.previous %}
+<button onclick="location.href='{{ pagination.href.previous }}'">
+    Previous
+</button>
+{% endif %}
+
+<span>{{ pagination.pageNumber | plus: 1 }}/{{ pagination.pages.length }}</span>
+
+{% if pagination.href.next %}
+<button onclick="location.href='{{ pagination.href.next }}'">
+    Next
+</button>
+{% endif %}
